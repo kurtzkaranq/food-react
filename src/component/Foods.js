@@ -1,5 +1,5 @@
 function Foods(props) {
-  console.log(props);
+  //   console.log(props);
   //   console.log(props);
   //   const discountDish = props.data.filter((dish) => dish.category == "discount");
   //   const mainDish = props.data.filter((dish) => dish.category == "main");

@@ -149,7 +149,7 @@ function Menu(props) {
           </a>
         </div>
       </div>
-      {console.log(foodData[1])}
+      {/* {console.log(foodData[1])} */}
       {foodData.map((p, i) => {
         return <Foods data={p} key={i} />;
       })}
