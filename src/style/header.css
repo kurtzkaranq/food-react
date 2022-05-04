@@ -1,0 +1,19 @@
+.header {
+  padding: 3%;
+  /* height: 5vh; */
+}
+h2 {
+  color: #f17228;
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.logo {
+  justify-content: center;
+  margin-left: 13%;
+  /* width: 30%; */
+}
+.headerMenu img {
+  padding-right: 8%;
+  /* margin-right: 2%; */
+}

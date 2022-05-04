@@ -1,0 +1,18 @@
+.menu-title {
+  width: 10px;
+  height: 20px;
+  display: flex;
+  margin-left: 5%;
+  background: #f17228;
+  justify-content: space-between;
+}
+.menu-info span {
+  margin-left: 2%;
+}
+.see-more a {
+  text-decoration: none;
+  color: #f17228;
+}
+.arrow-2 {
+  height: 17px;
+}

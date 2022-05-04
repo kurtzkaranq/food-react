@@ -1,0 +1,48 @@
+.first-slide {
+  background-image: url(../image/banner1.svg);
+  width: 100%;
+
+  z-index: -1;
+  /* padding: 4px; */
+  background-size: 100vw;
+  background-position-x: center;
+  background-size: 100%;
+  background-repeat: repeat;
+  justify-self: center;
+}
+.first-slide img {
+  margin-top: 5%;
+}
+.second-slide {
+  background-image: url(../image/banner2.svg);
+  width: 100%;
+
+  z-index: -1;
+  /* padding: 4px; */
+  background-size: 100vw;
+  background-position-x: center;
+  background-size: 100%;
+  background-repeat: repeat;
+  justify-self: center;
+}
+
+.slide-content {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 7%;
+
+  text-align: right;
+}
+.slide-title {
+  color: #f17228;
+
+  /* margin-left: 200px; */
+}
+.slide-par {
+  /* margin-right: 50%; */
+  color: #4d2000;
+}
+.slide2-title {
+  color: white;
+  z-index: -1;
+}

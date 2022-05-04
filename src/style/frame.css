@@ -1,0 +1,27 @@
+.frameList {
+  background-image: url(../image/frame/frame-bg.svg);
+  list-style-type: none;
+  width: 100%;
+  z-index: -1;
+  background-size: 100vw;
+  background-image: 15%;
+  padding: 8% 8% 0% 5%;
+}
+.frameList li {
+  text-align: left;
+  display: flex;
+}
+img {
+  margin-right: 5%;
+}
+span {
+  font-weight: 700;
+  font-size: 14px;
+}
+p {
+  color: #1d1d1f;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  opacity: 0.75;
+}
