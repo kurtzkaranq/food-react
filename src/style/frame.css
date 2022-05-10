@@ -25,3 +25,35 @@ p {
   line-height: 18px;
   opacity: 0.75;
 }
+@media (min-width: 700px) {
+  .frameList img {
+    height: 50px;
+  }
+  .frameList {
+    justify-content: space-between;
+    margin: auto;
+    background-image: none;
+    padding: 5%;
+  }
+  .frame {
+    background: linear-gradient(
+      179.24deg,
+      #f17228 -150.18%,
+      rgba(255, 255, 255) 25.19%
+    );
+  }
+  .frameList li {
+    width: 30%;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 1000px) {
+  .frameList {
+    border-radius: 5%;
+    width: 80%;
+    padding-bottom: 0%;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+  }
+}

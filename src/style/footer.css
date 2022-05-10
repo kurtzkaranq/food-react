@@ -32,3 +32,8 @@ footer ul li {
 .number {
   color: aliceblue;
 }
+@media (min-width: 700px) {
+  .copyright {
+    margin-left: 15%;
+  }
+}

@@ -6,11 +6,12 @@ import Slider1 from "../image/slider1.svg";
 function Main() {
   return (
     <>
-      <Carousel>
-        <Carousel.Item className="first-slide d-flex">
+      <Carousel className="carousel">
+        <Carousel.Item className="first-slide d-flex justify-content-center justify-content-md-around">
           <img className="d-block " src={Slider1} alt="First slide" />
           <div className="slide-content">
             <h3 className="slide-title">Mstars Food Delivery</h3>
+            <hr />
             <p className="slide-par">Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
           </div>
         </Carousel.Item>

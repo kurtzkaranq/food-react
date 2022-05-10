@@ -1,18 +1,56 @@
 .menu-title {
   width: 10px;
-  height: 20px;
+  height: 25px;
   display: flex;
   margin-left: 5%;
   background: #f17228;
   justify-content: space-between;
+  margin-bottom: 5%;
 }
-.menu-info span {
-  margin-left: 2%;
-}
+
 .see-more a {
   text-decoration: none;
   color: #f17228;
 }
 .arrow-2 {
   height: 17px;
+}
+@media (min-width: 700px) {
+  .menuTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+@media (min-width: 1000px) {
+  .food-menu {
+    padding: 0px 5%;
+  }
+  .menu-info {
+    width: 50%;
+  }
+  .menu-title {
+    padding: 0%;
+    margin-right: 0%;
+  }
+  .see-more {
+    width: 25%;
+    color: aliceblue;
+  }
+  .see-more a {
+    background: #f17228;
+    height: 50%;
+    padding-top: 4%;
+    padding-right: 5%;
+    width: 70%;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    color: white;
+  }
+  .menu-line {
+    margin-top: 3%;
+  }
 }

@@ -8,7 +8,7 @@ const foodData = [
     img: "../image/food/food1.svg",
     discount: 20,
     discount_price: "6,800₮",
-    category: "discount",
+    category: "Хямдралтай",
   },
   {
     name: "Панкейк",
@@ -16,7 +16,7 @@ const foodData = [
     img: "../image/food/food2.svg",
     discount: 20,
     discount_price: "6,800₮",
-    category: "discount",
+    category: "Хямдралтай",
   },
   {
     name: "Өглөөний хоол",
@@ -24,7 +24,7 @@ const foodData = [
     img: "../image/food/food3.svg",
     discount: 20,
     discount_price: "6,800₮",
-    category: "discount",
+    category: "Хямдралтай",
   },
   {
     name: "Банана сендвич",
@@ -32,7 +32,7 @@ const foodData = [
     img: "../image/food/food4.svg",
     discount: 20,
     discount_price: "6,800₮",
-    category: "discount",
+    category: "Хямдралтай",
   },
   {
     name: " Салмон загас",
@@ -40,7 +40,7 @@ const foodData = [
     img: "../image/food/food5.svg",
     discount: 0,
     discount_price: " ",
-    category: "main",
+    category: "Үндсэн хоол",
   },
   {
     name: " Бөөрөнхий мах",
@@ -48,7 +48,7 @@ const foodData = [
     img: "../image/food/food6.svg",
     discount: 0,
     discount_price: " ",
-    category: "main",
+    category: "Үндсэн хоол",
   },
   {
     name: "Самрын нухаш",
@@ -56,7 +56,7 @@ const foodData = [
     img: "../image/food/food7.svg",
     discount: 0,
     discount_price: " ",
-    category: "main",
+    category: "Үндсэн хоол",
   },
   {
     name: " Чикен бургер",
@@ -64,7 +64,7 @@ const foodData = [
     img: "../image/food/food8.svg",
     discount: 0,
     discount_price: " ",
-    category: "main",
+    category: "Үндсэн хоол",
   },
   {
     name: "Детокс салад",
@@ -72,7 +72,7 @@ const foodData = [
     img: "../image/food/food9.svg",
     discount: 0,
     discount_price: " ",
-    category: "salad",
+    category: "Салад ба зууш",
   },
   {
     name: "Кобб салад",
@@ -80,7 +80,7 @@ const foodData = [
     img: "../image/food/food10.svg",
     discount: 0,
     discount_price: " ",
-    category: "salad",
+    category: "Салад ба зууш",
   },
   {
     name: "Авокадо салад",
@@ -88,7 +88,7 @@ const foodData = [
     img: "../image/food/food11.svg",
     discount: 0,
     discount_price: " ",
-    category: "salad",
+    category: "Салад ба зууш",
   },
   {
     name: "Сендвич",
@@ -96,7 +96,7 @@ const foodData = [
     img: "../image/food/food12.svg",
     discount: 0,
     discount_price: " ",
-    category: "salad",
+    category: "Салад ба зууш",
   },
   {
     name: "Донатс",
@@ -104,7 +104,7 @@ const foodData = [
     img: "../image/food/food13.svg",
     discount: 0,
     discount_price: " ",
-    category: "desert",
+    category: "Амттан",
   },
   {
     name: " Орео дессерт",
@@ -112,7 +112,7 @@ const foodData = [
     img: "../image/food/food14.svg",
     discount: 0,
     discount_price: " ",
-    category: "desert",
+    category: "Амттан",
   },
   {
     name: "Вафли",
@@ -120,7 +120,7 @@ const foodData = [
     img: "../image/food/food15.svg",
     discount: 0,
     discount_price: " ",
-    category: "desert",
+    category: "Амттан",
   },
   {
     name: "Макарон",
@@ -128,7 +128,7 @@ const foodData = [
     img: "../image/food/food16.svg",
     discount: 0,
     discount_price: " ",
-    category: "desert",
+    category: "Амттан",
   },
 ];
 let result = "";
@@ -138,21 +138,27 @@ function Menu(props) {
     <>
       <div className="menu-line d-flex  mb-2">
         <div className="menu-title "></div>
-        <div className="d-flex menu-info w-100">
-          <span>{props.menuTitle}</span>
+        <div className="d-flex menu-info w-100 justify-content-between">
+          <div>
+            <span className="menuTitle">{props.menuTitle}</span>
+          </div>
           <img src={Arrow} alt className="d-lg-none arrow-2" />
         </div>
+        <div></div>
         <div className="d-flex see-more">
-          <a href="#">
-            <span className="ms-3 d-none"> Бүгдийг харах </span>
-            {/* <img src="./pics/icon/right-arrow.svg" alt className="arrow" /> */}
+          <a href="#" className="d-flex">
+            <span className="ms-3 d-none d-lg-inline"> Бүгдийг харах </span>
           </a>
+          {/* <img src="../image/right-arrow.svg" alt className="arrow" /> */}
         </div>
       </div>
-      {/* {console.log(foodData[1])} */}
-      {foodData.map((p, i) => {
-        return <Foods data={p} key={i} />;
-      })}
+      <div className="row food-menu">
+        {foodData
+          .filter((food) => food.category == props.menuTitle)
+          .map((p, i) => {
+            return <Foods data={p} index={i} />;
+          })}
+      </div>
     </>
   );
 }

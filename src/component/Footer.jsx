@@ -68,7 +68,7 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div class="last d-flex flex-column flex-md-row w-100">
+          <div class="last d-flex flex-column flex-md-row w-100 justify-content-end">
             <div class="footer-list d-flex flex-column">
               <a href="#" class="mb-2">
                 Нууцлалын бодлого
@@ -77,7 +77,7 @@ function Footer() {
                 Үйлчилгээний нөхцөл
               </a>
             </div>
-            <div class="copyright">
+            <div class="copyright justify-content-end">
               © 2020 MStars Foods LLC
               <br />
               <span class="d-none d-md-inline">

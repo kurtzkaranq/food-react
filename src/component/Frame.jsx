@@ -5,8 +5,8 @@ import Frame3 from "../image/frame/frame3.svg";
 
 function Frame() {
   return (
-    <>
-      <ul className="frameList">
+    <div className="frame">
+      <ul className="frameList d-md-flex ">
         <li>
           <img src={Frame1} alt="" />
           <div className="">
@@ -29,7 +29,7 @@ function Frame() {
           </div>
         </li>
       </ul>
-    </>
+    </div>
   );
 }
 export default Frame;
