@@ -131,7 +131,6 @@ const foodData = [
     category: "Амттан",
   },
 ];
-let result = "";
 
 function Menu(props) {
   return (
@@ -142,7 +141,7 @@ function Menu(props) {
           <div>
             <span className="menuTitle">{props.menuTitle}</span>
           </div>
-          <img src={Arrow} alt className="d-lg-none arrow-2" />
+          <img src={Arrow} alt="" className="d-lg-none arrow-2" />
         </div>
         <div></div>
         <div className="d-flex see-more">
@@ -154,7 +153,7 @@ function Menu(props) {
       </div>
       <div className="row food-menu">
         {foodData
-          .filter((food) => food.category == props.menuTitle)
+          .filter((food) => food.category === props.menuTitle)
           .map((p, i) => {
             return <Foods data={p} index={i} />;
           })}
