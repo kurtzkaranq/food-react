@@ -24,14 +24,14 @@ function Header() {
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <div className="drop-list">
               <li className="d-flex">
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   <div>Хоолны цэс</div>
                 </a>
                 <img src={Arrow} alt="" />
               </li>
               <hr />
               <li className="d-flex">
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   <div>Хүргэлтийн бүс</div>
                 </a>
                 <img src={Arrow} alt="" />
@@ -46,7 +46,7 @@ function Header() {
               </li>
               <hr />
               <li className="d-flex">
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="/">
                   <div>Миний захиалга</div>
                 </a>
                 <img src={Arrow} alt="" />
@@ -67,7 +67,7 @@ function Header() {
         </ul>
       </div>
       <div className="headerMenu col-4 col-lg-6">
-        <a href="#" className="d-lg-none">
+        <a href="/" className="d-lg-none">
           <img src={Search} alt="" />
         </a>
         <input
@@ -77,7 +77,7 @@ function Header() {
           className="d-none d-lg-block"
           placeholder="Хайх"
         />
-        <a href="#" className="d-none d-md-flex">
+        <a href="/" className="d-none d-md-flex">
           <img src={Basket} alt="" />
           <span className="d-none d-lg-block">Сагс</span>
         </a>

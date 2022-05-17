@@ -146,7 +146,7 @@ function Menu(props) {
         </div>
         <div></div>
         <div className="d-flex see-more">
-          <a href="#" className="d-flex">
+          <a href="/" className="d-flex">
             <span className="ms-3 d-none d-lg-inline"> Бүгдийг харах </span>
           </a>
           {/* <img src="../image/right-arrow.svg" alt className="arrow" /> */}

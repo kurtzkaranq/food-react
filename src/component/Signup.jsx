@@ -26,7 +26,7 @@ function Signup() {
             Нууц үг давтах
             <input type="password" placeholder="Нууц үгээ давтана уу. " />
           </div>
-          <a href="#">
+          <a href="/">
             <input type="radio" name="radio" id="radio" />
             Үйлчилгээний нөхцөл зөвшөөрөх
           </a>

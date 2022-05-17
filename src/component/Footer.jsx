@@ -18,10 +18,10 @@ function Footer() {
             <div class="footerMenu">
               <ul>
                 <li>
-                  <a href="#">Нүүр</a>
+                  <a href="/">Нүүр</a>
                 </li>
                 <li>
-                  <a href="#">Хоолны цэс</a>
+                  <a href="/">Хоолны цэс</a>
                 </li>
                 <li>
                   <a href="./project/deliveryZone.html">Хүргэлтийн бүс</a>
@@ -31,7 +31,7 @@ function Footer() {
             <div class="contact">
               <ul>
                 <li>
-                  <a href="#">Холбоо барих</a>
+                  <a href="/">Холбоо барих</a>
                 </li>
                 <li className="number">(976) 123456789</li>
                 <li className="number">(976) 987654321</li>
@@ -41,13 +41,13 @@ function Footer() {
         </div>
         <div class="justify-content-center d-md-none mSocial">
           <div class="img d-flex ms-2">
-            <a href="#" class="ms-2">
+            <a href="/" class="ms-2">
               <img src={Logo1} alt="" />
             </a>
-            <a href="#" class="ms-2">
+            <a href="/" class="ms-2">
               <img src={Logo2} alt="" />
             </a>
-            <a href="#" class="ms-2">
+            <a href="/" class="ms-2">
               <img src={Logo3} alt="" />
             </a>
           </div>
@@ -57,23 +57,23 @@ function Footer() {
           <div class="social d-flex-column d-none d-md-inline">
             Бидэнтэй нэгдээрэй
             <div class="img d-flex ms-2">
-              <a href="#" class="ms-2">
+              <a href="/" class="ms-2">
                 <img src={Logo1} alt="" />
               </a>
-              <a href="#" class="ms-2">
+              <a href="/" class="ms-2">
                 <img src={Logo2} alt="" />
               </a>
-              <a href="#" class="ms-2">
+              <a href="/" class="ms-2">
                 <img src={Logo3} alt="" />
               </a>
             </div>
           </div>
           <div class="last d-flex flex-column flex-md-row w-100 justify-content-end">
             <div class="footer-list d-flex flex-column">
-              <a href="#" class="mb-2">
+              <a href="/" class="mb-2">
                 Нууцлалын бодлого
               </a>
-              <a href="#" class="mb-2">
+              <a href="/" class="mb-2">
                 Үйлчилгээний нөхцөл
               </a>
             </div>

@@ -26,12 +26,12 @@ function Login() {
             />
           </div>
           <div>
-            <a href="#">Нууц үгээ мартсан уу.</a>
+            <a href="/">Нууц үгээ мартсан уу.</a>
           </div>
         </div>
         <div>
           <button>Нэвтрэх</button>
-          <a href="#" id="buttonOp">
+          <a href="/" id="buttonOp">
             эсвэл
           </a>
           <input type="button" value="Бүртгүүлэх" />
