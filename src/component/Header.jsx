@@ -66,7 +66,7 @@ function Header() {
           <li>ХҮРГЭЛТИЙН БҮС</li>
         </ul>
       </div>
-      <div className="headerMenu col-4 col-lg-6">
+      <div className="headerMenu col-4 col-lg-6 d-flex">
         <a href="/" className="d-lg-none">
           <img src={Search} alt="" />
         </a>
