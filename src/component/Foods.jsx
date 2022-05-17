@@ -10,7 +10,7 @@ function Foods(props) {
     <>
       {" "}
       <>
-        <a href="#" class="col-6 pe-2 mb-5 col-md-3">
+        <a href="/" class="col-6 pe-2 mb-5 col-md-3">
           <div class="card1">
             <div class="hovver"></div>
 

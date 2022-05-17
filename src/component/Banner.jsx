@@ -1,5 +1,5 @@
 import "../style/banner.css";
-import Banner2 from "../image/banner2.svg";
+
 import Carousel from "react-bootstrap/Carousel";
 import Slider1 from "../image/slider1.svg";
 
